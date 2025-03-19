@@ -1,0 +1,5 @@
+c Example formula from COSE419 Assignment 1; UNSAT
+p cnf 2 3
+-1 2 0
+1 0
+-2 0

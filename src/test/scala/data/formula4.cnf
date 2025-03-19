@@ -1,0 +1,13 @@
+c Example formula from AAA528 Assignment 1; SAT
+p cnf 3 5
+-1 -2 -3 0
+1 -2 3 0
+1 2 -3 0
+1 -2 -3 0
+-1 2 3 0
+
+c (not 1 \/ not 2 \/ not 3) /\
+c (1 \/ not 2 \/ 3) /\
+c (1 \/ 2 \/ not 3) /\
+c (1 \/ not 2 \/ not 3) /\
+c (not 1 \/ 2 \/ 3)
